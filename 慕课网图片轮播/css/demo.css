@@ -1,0 +1,31 @@
+.banner-box{
+    width:936px;
+    height:316px;
+    margin:100px auto;
+    position:relative;
+}
+.banner-box ul li{
+    position:absolute;
+    display:none;
+}
+
+.banner-box ol{
+    position:absolute;
+    right:5px;
+    bottom:10px;
+}
+.banner-box ol li{
+    float:left;
+    width:8px;
+    height:8px;
+     background:#000; 
+    border-radius:50%;
+     border:1px solid #666; 
+    margin-left:5px;
+    color:#000;
+    text-align: center;
+    cursor:pointer;
+}
+.banner-box ol li.on{
+    background:#fff;
+}
